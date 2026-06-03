@@ -110,47 +110,24 @@ revealOnScroll();
 
 let currentLang = "id";
 
-const button =
-document.getElementById("langToggle");
+const button = document.getElementById("langToggle");
 
 button.addEventListener("click", () => {
 
-if (currentLang === "id") {
+currentLang = currentLang === "id" ? "en" : "id";
 
-currentLang = "en";
+button.textContent =
+currentLang === "id"
+? "EN"
+: "ID";
 
-button.textContent = "ID";
+document.querySelectorAll("[data-id]").forEach(el => {
 
-document.querySelector("#about .section-title").textContent =
-"About Me";
+el.textContent =
+currentLang === "id"
+? el.dataset.id
+: el.dataset.en;
 
-document.querySelector("#skills .section-title").textContent =
-"Skills";
-
-document.querySelector("#journey .section-title").textContent =
-"Learning Journey";
-
-document.querySelector("#contact .section-title").textContent =
-"Contact";
-
-} else {
-
-currentLang = "id";
-
-button.textContent = "EN";
-
-document.querySelector("#about .section-title").textContent =
-"Tentang Saya";
-
-document.querySelector("#skills .section-title").textContent =
-"Skills";
-
-document.querySelector("#journey .section-title").textContent =
-"Learning Journey";
-
-document.querySelector("#contact .section-title").textContent =
-"Contact";
-
-}
+});
 
 });
