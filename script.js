@@ -123,10 +123,11 @@ currentLang === "id"
 
 document.querySelectorAll("[data-id]").forEach(el => {
 
-el.textContent =
-currentLang === "id"
+const text = currentLang === "id"
 ? el.dataset.id
 : el.dataset.en;
+
+el.innerHTML = text;
 
 });
 
