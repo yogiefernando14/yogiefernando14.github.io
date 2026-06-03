@@ -248,6 +248,32 @@ transition:.3s;
 transform:translateY(-10px);
 }
 
+.project-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:20px;
+}
+
+.project-card{
+background:#111;
+padding:30px;
+border-radius:20px;
+transition:.3s;
+}
+
+.project-card:hover{
+transform:translateY(-10px);
+}
+
+.project-card h3{
+margin-bottom:15px;
+}
+
+.project-card p{
+opacity:.8;
+line-height:1.7;
+}
+
 .timeline{
 position:relative;
 padding-left:30px;
@@ -261,6 +287,17 @@ top:0;
 width:2px;
 height:100%;
 background:#444;
+}
+
+.github-stats{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:20px;
+}
+
+.github-stats img{
+width:100%;
+border-radius:20px;
 }
 
 .timeline-item{
