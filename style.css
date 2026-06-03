@@ -381,8 +381,8 @@ transform:none;
 @media(max-width:900px){
 
 .hero{
-flex-direction:column;
-text-align:center;
+flex-direction:row;
+text-align:left;
 }
 
 .hero-left h1{
