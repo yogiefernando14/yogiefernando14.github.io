@@ -277,6 +277,27 @@ opacity:.8;
 line-height:1.7;
 }
 
+.project-links{
+display:flex;
+gap:10px;
+margin-top:15px;
+flex-wrap:wrap;
+}
+
+.project-links a{
+padding:10px 15px;
+background:white;
+color:black;
+text-decoration:none;
+border-radius:10px;
+font-weight:600;
+transition:.3s;
+}
+
+.project-links a:hover{
+transform:translateY(-3px);
+}
+
 .timeline{
 position:relative;
 padding-left:30px;
