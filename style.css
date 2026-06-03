@@ -381,25 +381,37 @@ transform:none;
 @media(max-width:900px){
 
 .hero{
-flex-direction:row;
-text-align:left;
-}
-
-.hero-left h1{
-font-size:3rem;
+flex-direction:column;
+text-align:center;
 }
 
 .hero-buttons{
 justify-content:center;
 }
 
-.about-card{
-flex-direction:column;
-text-align:center;
+.orbit{
+width:220px;
+height:220px;
 }
 
-nav{
-display:none;
+.ring1{
+width:120px;
+height:120px;
+}
+
+.ring2{
+width:170px;
+height:170px;
+}
+
+.ring3{
+width:220px;
+height:220px;
+}
+
+.planet{
+width:50px;
+height:50px;
 }
 
 }
