@@ -1165,6 +1165,13 @@ color:white;
 transform:rotate(90deg);
 }
 
+.demo-note{
+font-size:.8rem;
+color:#8f8f8f;
+padding:0 25px 20px;
+line-height:1.6;
+}
+
 /* =========================
    MOBILE
 ========================= */
