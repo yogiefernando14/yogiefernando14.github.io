@@ -3,11 +3,11 @@
 ========================= */
 
 const roles = [
+"Full-Stack Web Developer",
 "Frontend Developer",
-"Web Designer",
-"Video Editor",
-"AI Creator",
-"Digital Entrepreneur"
+"PHP & MySQL Developer",
+"Freelance Web Developer",
+"UI-Focused Developer"
 ];
 
 const typingElement =
