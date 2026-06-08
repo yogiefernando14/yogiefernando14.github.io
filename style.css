@@ -1165,25 +1165,29 @@ color:white;
 transform:rotate(90deg);
 }
 
-.demo-note{
-font-size:.75rem;
-color:#ffb347;
-padding:10px 25px 20px;
-line-height:1.5;
-margin-top:0;
+.demo-warning{
+display:flex;
+align-items:center;
+justify-content:center;
+gap:10px;
+margin-top:15px;
+padding-bottom:5px;
+color:#9f9f9f;
+font-size:.8rem;
+cursor:pointer;
 }
 
 .warning-orb{
-width:32px;
-height:32px;
-display:inline-flex;
+width:28px;
+height:28px;
+display:flex;
 align-items:center;
 justify-content:center;
 border-radius:50%;
-background:rgba(255,255,255,.06);
-border:1px solid rgba(255,255,255,.15);
+background:rgba(255,255,255,.05);
+border:1px solid rgba(255,255,255,.12);
 backdrop-filter:blur(20px);
-font-size:12px;
+font-size:14px;
 font-weight:700;
 box-shadow:
 0 0 15px rgba(255,255,255,.08);
