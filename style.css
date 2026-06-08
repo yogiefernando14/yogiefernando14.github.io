@@ -1166,10 +1166,11 @@ transform:rotate(90deg);
 }
 
 .demo-note{
-font-size:.8rem;
-color:#8f8f8f;
-padding:0 25px 20px;
-line-height:1.6;
+font-size:.75rem;
+color:#ffb347;
+padding:10px 25px 20px;
+line-height:1.5;
+margin-top:0;
 }
 
 /* =========================
